@@ -27,6 +27,9 @@ jobs:
     - name: Install dependencies
       id: install-dependencies
       run: npm i
+    - name: Building
+      id: build
+      run: npm run build
     - name: Run server
       id: run
       run: npm run dev
